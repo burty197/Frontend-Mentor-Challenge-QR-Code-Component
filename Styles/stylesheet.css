@@ -48,27 +48,3 @@ footer{
     text-align: center;
     background-color:hsl(0, 0%, 100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Footer Attribute below */
-.attribution, a { 
-    font-size: 15px; 
-    text-align: center; 
-}
-.attribution a{
-    color: hsl(228, 45%, 44%)
- }
