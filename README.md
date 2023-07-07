@@ -13,7 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -33,8 +32,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - Github Repo created with a local repository which included a template project from Frontend Mentor QR-Code Component challenge.
 - HTMl 5 Markup added with metadata information plus links setup to stylesheet and favicon.
-- Div classes Container and Card created to add style rules later on, whilst QR-Image was added and card content was given the attributes tag <h1>, <p> 
-- A Footer was created to add <a> hyperlinks for my GitHub project and the QR-Code component challenge on Frontend mentor.io
+- Div classes Container and Card created to add style rules later on, whilst QR-Image was added and card content was given the attributes tag h1, p 
+- A Footer was created to add a hyperlinks for my GitHub project and the QR-Code component challenge on Frontend mentor.io
 - Stylesheet created,   
 - The main goal was to get the QR card component to be in the center of the page. so the solution I did for this was to assign the container flex properties to center the card.
 - After the card was centered the next thing to do was create css attributes for the image of the qr code to fit within the card by assigning a max-width:100% to scale with the card.
@@ -67,7 +66,7 @@ The languages used for this challenge were HTML5 and CSS, For creating the QR Co
 - The Container Class is the main div for the card component, its purpose is to position and center the card on the page. 
 - Card class contains all of the qr content such as the image and text, styles will be applied such as the color and card design.
 - img id ="qr_img" contains the qr-code and also has the width and height properties added as they will be applied to the image first before the style is applied in the stylesheet.css.
-- Text provided was placed in <h1> and <p> tag.
+- Text provided was placed in h1 and p tag.
 
 ### CSS Flexbox model
 ```css - flexbox
