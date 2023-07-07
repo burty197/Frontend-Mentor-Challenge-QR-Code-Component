@@ -71,7 +71,7 @@ The languages used for this challenge were HTML5 and CSS, For creating the QR Co
 ### CSS Flexbox model
 ```css - flexbox
 .container{
-    min-height: 100vh;
+     min-height: 100vh;
     display: flex;
     flex-shrink: 1;
     flex-grow: 0;
@@ -79,7 +79,8 @@ The languages used for this challenge were HTML5 and CSS, For creating the QR Co
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin:1rem;
+    margin: 1rem;
+    scale: 80%;
 }
 ```
 - The code snippet above shows my div container having a display:flex with using flex i have learnt how properties interact with each other when postioning my QR code component.
@@ -89,6 +90,7 @@ The languages used for this challenge were HTML5 and CSS, For creating the QR Co
 - align-items and justify-content set to centre so content will be centered in the middle of the browser. 
 - text-align center the text in the container on the card.
 - margin:1rem applied to container giving 1rem of space on each side of the container. 
+- scale:80%, changed the size of the element by scaling it down to 80%
 
 ### Continued development
 

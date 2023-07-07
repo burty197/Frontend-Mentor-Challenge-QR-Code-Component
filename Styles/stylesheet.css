@@ -23,6 +23,7 @@ body {
     justify-content: center;
     text-align: center;
     margin: 1rem;
+    scale: 80%;
 }
 
 .card {
@@ -30,6 +31,7 @@ body {
     border-radius: 25px;
     max-width: 400px;
     padding: 1rem;
+    
 
 }
 
